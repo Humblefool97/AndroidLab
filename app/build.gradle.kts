@@ -42,6 +42,10 @@ android {
 }
 
 dependencies {
+    implementation(project(":core:data"))
+    implementation(project(":core:ui"))
+    implementation(project(":feature:detail"))
+    implementation(project(":feature:feed"))
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)
